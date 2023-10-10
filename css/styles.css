@@ -74,6 +74,7 @@ ul {
   text-transform: uppercase;
   display: flex;
   margin-right: 76px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-logo .accent {
@@ -105,6 +106,7 @@ ul {
   letter-spacing: 0.32px;
   display: inline-flex;
   padding: 20px 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-item:active::after {
@@ -149,6 +151,7 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero {
@@ -198,6 +201,7 @@ ul {
   margin-top: 48px;
   margin-right: auto;
   margin-left: auto;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover,
@@ -300,6 +304,9 @@ ul {
   width: calc((100% - 24px * 3) / 4);
   margin: 0 auto;
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-item-container {
@@ -343,6 +350,13 @@ ul {
   border: 2px solid #4d5ae5;
   background-color: #4d5ae5;
   fill: #f4f4fd;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-social-links:hover {
+  border: 2px solid #404bbf;
+  background-color: #404bbf;
 }
 
 .portfolio {
@@ -453,6 +467,7 @@ ul {
   text-transform: uppercase;
   display: inline-block;
   margin-bottom: 16px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-link .accent {
@@ -492,6 +507,13 @@ ul {
   border: 2px solid #4d5ae5;
   background-color: #4d5ae5;
   fill: #ffffff;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social-links:hover {
+  border: 2px solid #404bbf;
+  background-color: #404bbf;
 }
 
 .footer-social-links-icon {
